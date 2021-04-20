@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+
+.icon{
+    width: 100px;
+    height: 170px;
+    
+
+    margin-left: auto;
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+    font-size: 30px;
+    z-index: 1;
+}
+.up{
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(230, 213, 213);
+    background-color:  rgb(238, 235, 235);
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+.down{
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(230, 213, 213);
+    background-color:  rgb(241, 238, 238);
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+
+.box{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(230, 213, 213);
+    background-color:  rgb(241, 238, 238); 
+    font-size: 15px;
+    text-align: start;
+    position: absolute;
+    right: 110px;
+    bottom: 90px;
+    opacity: 0;
+    visibility: visible;
+    transition: 0.8s;
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
+a:hover{
+    color: red;
+
+    border-bottom: 1px solid red;
+
+}
+.up:hover{
+    background-color: red;
+    
+}
+.down:hover{
+    background-color: red;
+    
+}
+/* .box:hover{
+    display: flow-root;
+} */
+
+ .icon .up:hover .box{
+   opacity: 1;
+   visibility: visible;
+}
+.box a{
+    text-decoration: none;
+} 
+.box {
+    opacity: 0px;
+}
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(235, 139, 104);
+}
+
