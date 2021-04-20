@@ -76,9 +76,6 @@ a:hover{
     background-color: red;
     
 }
-/* .box:hover{
-    display: flow-root;
-} */
 
  .icon .up:hover .box{
    opacity: 1;
@@ -87,9 +84,7 @@ a:hover{
 .box a{
     text-decoration: none;
 } 
-.box {
-    opacity: 0px;
-}
+
 
 
 
